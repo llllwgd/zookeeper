@@ -2,12 +2,16 @@ package com.atguigu;
 
 public class SonOfWatch extends BaseWatch {
 	
+	public static void main(String[] args) {
+		
+	}
+	
 	/**
 	 * 构造器
 	 * @param ip 需要连接的zookeeper的ip地址
 	 * @param session_timeout 失效时间
 	 */
-	protected SonOfWatch(String ip, int session_timeout) {
+	public SonOfWatch(String ip, int session_timeout) {
 		super(ip, session_timeout);
 	}
 
